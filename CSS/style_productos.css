@@ -25,11 +25,9 @@
     align-items: center;
     padding: 1rem 0px;
     gap: 3rem;
-    width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    /* Preto/branco */
+    width: 50%;
+    height: 90px;
+    margin-left: 5%;
     background: #FFFFFF;
     /* Inside auto layout */
     flex: none;
@@ -49,46 +47,10 @@
     
 }
 
-.encabezado_boton {
-
-    width: 42%;
-    display: flex;
-    justify-content: end;
-}
-
-.encabezado_btnLogin {
-
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 160px;
-    height: 2.8rem;
-    margin-right: 0px;
-    border: 1px solid #2A7AE4;
-    order: 1;
-    flex-grow: 0;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.2rem;
-    color: #2A7AE4;
-
-}
-
-.encabezado_btnLogin:hover {
-
-    font-weight: 700;
-    border: 1px solid #2ae481;
-    background: #464646;
-    border-radius: 10px;
-}
 
 .encabezado_barra_logo {
 
-    width: 20%;
+    width: 30%;
     height: 3rem;
     order: 0;
     flex-grow: 0;
@@ -98,7 +60,7 @@
 
 .encabezado_barra_contenedor_search {
 
-    width: 35%;
+    width: 60%;
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -136,111 +98,79 @@
     
 }
 
-.encabezado_fondo {
-
-    width: 100%;
-    height: 100%;
-    margin-top: 1rem;
-    background-image: url("../IMG/Hero.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-
-.encabezado_fondo_banner {
-
-    width: 90%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 0.8rem;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
-
-.encabezado_fondo_banner h1 {
-
-    width: fit-content;
-    height: fit-content;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: normal;
-    color: #FFFFFF;
-}
-
-.encabezado_fondo_banner h2 {
-
-    width: fit-content;
-    height: fit-content;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.4rem;
-    line-height: normal;
-    color: #FFFFFF;
-}
-
-.encabezado_fondo_banner a {
-
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    background: #2A7AE4;
-    color: #FFFFFF;
-    padding: 0.5rem;
-    text-align: center;
-    align-items: center;
-    font-size: 1rem;    
-    
-}
-
-.encabezado_fondo_banner a:hover {
-
-    background: #EAF2FD;
-    border-radius: 10px;
-    color: #2A7AE4;
-}
-
 .contenido {
 
     width: 100%;
     height: auto;
 }
 
-.contenido_destacados_startwar {
+.contenido_productos {
 
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.contenido_productos_titulo {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-}
-
-.contenido_titulo {
-
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    padding: 10px 0;
 }
 
-.productos {
+.contenido_productos_titulo h1 {
 
-    width: 100%;
+    width: fit-content;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.contenido_titulo_btn {
+
+    
+    width: fit-content;
+    height: 50px;
+    justify-content: center;
+    padding: 1rem;
+    gap: 0.7rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #FFFFFF;
+    background: #2A7AE4;
+    border: none;
+
+}
+
+.contenido_titulo_btn:hover {
+
+    font-weight: 700;
+    border: 1px solid #2ae481;
+    background: #9dcfe0;
+    border-radius: 10px;
+    color: #464646;
+}
+
+.contenido_productos_productos {
+
+    display: grid;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    grid-template-rows: auto auto auto;
+    margin-top: 3%;
+    
 }
 
 .productos_destacados {
@@ -248,8 +178,11 @@
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
-    width: 15%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
+    padding: 10px 0;
 }
 
 .productos_destacados h3 {
@@ -273,31 +206,16 @@
     color: #464646;
 }
 
-.productos_destacados a {
+.productos_destacados h4 {
 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.3rem;
-    color: #2A7AE4;
+    color: #464646;
 }
 
-.contenido_consolas {
-
-    width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contenido_diversos {
-
-    width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .rodapie {
 
@@ -419,59 +337,16 @@ color: #464646;
 
 @media only screen and (min-width: 401px) and (max-width: 768px) {
 
-    #producto5 {
+    
+    .contenido_productos_productos {
 
-        display: none;
-    }
-
-    #producto6 {
-
-        display: none;
-    }
-
-    #consola5 {
-
-        display: none;
-    }
-
-    #consola6 {
-
-        display: none;
-    }
-
-    #diverso5 {
-
-        display: none;
-    }
-
-    #diverso6 {
-
-        display: none;
-    }
-
-    .productos_destacados {
-
-        width: 24%;
-    }
-
-    .encabezado_fondo_banner {
-
-        padding-top: 1rem;
-        padding-bottom: 0.5rem;
-    }
-
-    .encabezado_fondo_banner h1 {
-
-        font-size: 1.5rem;
-        line-height: 2rem;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: auto;
+        margin-top: 3%;
+        
     }
     
-    .encabezado_fondo_banner h2 {
-    
-        font-size: 1rem;
-        line-height: 1.1rem;
-    }
-
     .info_contacto {
         width: 100%;
         height: 233px;
@@ -494,100 +369,48 @@ color: #464646;
 
 @media screen and (max-width:400px) {
 
-    #producto5 {
-
-        display: none;
-    }
-
-    #producto6 {
-
-        display: none;
-    }
-
-    #consola5 {
-
-        display: none;
-    }
-
-    #consola6 {
-
-        display: none;
-    }
-
-    #diverso5 {
-
-        display: none;
-    }
-
-    #diverso6 {
-
-        display: none;
-    }
-
+    
     .encabezado_barra {
 
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+    .encabezado_barra_contenedor {
+
         width: 100%;
-        margin: 5px;
-    }
-
-    .encabezado_barra_busquedad {
-        display: none;
-    }
-
-    .encabezado_barra_logo {
-
-        order: 0;
-    }
-
-    .encabezado_boton {
-
-        order: 1;
     }
 
     .encabezado_barra_contenedor_search {
 
+        width: 24px;
         order: 2;
         justify-content: end;
     }
 
-    .encabezado_fondo_banner h1 {
+    .encabezado_barra_busquedad {
 
-        font-size: 2rem;
-
+        display: none;
     }
 
-    .encabezado_fondo_banner h2 {
+    .contenido_productos_titulo {
 
-        font-size: 1rem;
-
+        flex-direction: column;
+        gap: 0.8rem;
     }
 
-    .productos {
+    .contenido_productos_productos {
 
-        height: 200px;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        margin-top: 3%;
+        
     }
 
-    .productos_destacados {
-
-        width: 40%;
-    }
-
-    .contenido_destacados_startwar {
-
-        height: 550px;
-    }
-
-    .contenido_consolas {
-
-        height: 550px;
-    }
-
-    .contenido_diversos {
-
-        height: 550px;
-    }
-
+    
     .info_contacto {
         width: 100%;
         height: 430px;
@@ -619,10 +442,5 @@ color: #464646;
 
         height: 3rem;
     }
-
-
-
-
-
 
 }

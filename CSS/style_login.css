@@ -1,0 +1,377 @@
+.app {
+
+    background: #F5F5F5;
+    width: 100%;
+    height: 100%;
+}
+
+.encabezado {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+}
+
+.encabezado_barra {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    gap: 3rem;
+    width: 50%;
+    height: 90px;
+    margin-left: 5%;
+    background: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.encabezado_barra_contenedor {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    justify-content: space-between;
+    
+}
+
+.encabezado_barra_logo {
+
+    width: 30%;
+    height: 3rem;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 1rem;
+
+}
+
+.encabezado_barra_contenedor_search {
+
+    width: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #FFFFFF;
+    background: #F5F5F5;
+    gap: 0.5rem;
+    justify-content: center;
+    
+}
+
+.encabezado_barra_lupa {
+
+    width: 24px;
+    height: 24px;
+    background: #F5F5F5;
+    
+}
+
+.encabezado_barra_busquedad {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    width: 80%;
+    height: 24px;
+    background: #F5F5F5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 0;
+    border: none;
+
+}
+
+.contenido {
+
+    width: 100%;
+    height: 300px;
+   
+}
+
+.contenido_formulario {
+
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.formulario_login {
+
+    width: 350px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.formulario_login label, input{
+
+    width: 100%;
+    
+}
+
+.formulario_login_titulo{
+
+    width: fit-content;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1,1rem;
+    line-height: 1.2rem;
+    color: #464646;
+    height: 30px;
+    
+}
+
+.formulario_login_nombre{
+
+    background: #FFFFFF;
+    border-radius: 4px;
+    height: 44px;
+    
+}
+
+.formulario_login_password{
+
+    background: #FFFFFF;
+    border-radius: 4px;
+    height: 44px;
+    
+}
+
+.formulario_login_boton {
+
+    height: 44px;
+    background: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    color: #FFFFFF;
+}
+
+.rodapie {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background: #EAF2FD;
+}
+
+.info_contacto {
+
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.info_contacto_logo {
+
+    width: 20%;
+    align-items: flex-start;
+    margin-top: 0;
+    margin-right: 10%;
+}
+
+.info_contacto_corporativo {
+
+    width: 40%;
+    height: auto;
+    align-items: flex-start;
+    padding: 0;
+    gap: 1.5rem;
+    justify-content: center;
+
+}
+
+.info_contacto_corporativo h3 {
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 2rem;
+color: #464646;
+}
+
+.info_contacto_formulario {
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario {
+
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    gap: 0.7rem;
+}
+.formulario label {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.formulario_btn {
+
+    width: 8rem;
+    height: 3rem;
+    align-items: center;
+    background: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #FFFFFF;
+}
+
+.rodapie_autor {
+
+    width: 100%;
+    height: 6rem;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodapie_autor h4 {
+    
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #464646;
+    
+}
+/*formato tablet*/
+
+@media only screen and (min-width: 401px) and (max-width: 768px) {
+
+    .formulario_login {
+
+        width: 250px;
+    }
+
+    .info_contacto {
+
+        flex-direction: column;
+        height: 250px;
+        flex-wrap: wrap;
+    }
+}
+
+/* formato cel*/
+
+@media screen and (max-width:400px) {
+
+    .encabezado_barra {
+
+        width: 100%;
+        margin: 5px;
+    }
+
+    .encabezado_barra_busquedad {
+        display: none;
+    }
+
+    .encabezado_barra_logo {
+
+        order: 0;
+    }
+
+    .encabezado_barra_contenedor_search {
+
+        order: 2;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .formulario_login {
+
+        width: 250px;
+    }
+
+    
+    .info_contacto {
+        width: 100%;
+        height: 430px;
+        flex-direction: column;
+    }
+
+    .info_contacto_logo {
+
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info_contacto_corporativo {
+
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .info_contacto_formulario {
+
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rodapie_autor {
+
+        height: 3rem;
+    }
+
+
+
+
+
+
+}

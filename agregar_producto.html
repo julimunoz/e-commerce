@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>e-commerce Alura Store</title>
+        <link href="./CSS/normalize.css" rel="stylesheet">
+        <link href="./CSS/reset.css" rel="stylesheet">
+        <link href="./CSS/style_agregar_producto.css" rel="stylesheet">
+        
+        
+    </head>
+
+    <body class="app">
+
+        <header class="encabezado">
+
+            <div class="encabezado_barra">
+                <div class="encabezado_barra_contenedor">
+                    <img class="encabezado_barra_logo" src="./IMG/Logo.png">
+                    <div class="encabezado_barra_contenedor_search">
+                        <input class="encabezado_barra_busquedad" type="search" placeholder="Que desea buscar?">
+                        <input class="encabezado_barra_lupa" type="image" src="./IMG/Icono_busquedad.png">
+                    </div>
+                
+                    <div class="encabezado_boton">
+                        <button class="encabezado_btn_menu_dministrador">Menú administrador</button>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </header>
+
+        <main class="contenido">
+
+            <section class="contenido_formulario_nuevo_producto">
+
+                <form action="" class="formulario_nuevo_producto">
+
+                    <label class="formulario_nuevo_producto_titulo">Agregar nuevo producto</label>
+
+                    <div class="formulario_nuevo_producto_busqueda">
+
+                        <div draggable="true" class="formulario_nuevo_producto_busqueda_drag">
+                            <img class="formulario_nuevo_producto_busqueda_drag_img" src="./IMG/icono_arrastrar.png">    
+                            <p>arrastre para agregar una imagen para el producto</p>
+                        </div>
+
+                        <p>
+                            O
+                        </p>
+
+                        <div class="formulario_nuevo_producto_add">
+                            <p>Busque en su computador</p>
+                            <input type="file" placeholder="selecciones images"class="formulario_nuevo_add" accept="image/png, image/jpg, image/gif, image/jpeg" name="archivo">
+                        </div>
+
+                    </div>
+                    <input type="text" placeholder="Categoria" draggable="true" class="formulario_nuevo_input" name="categoria" required>
+                    <input type="text" placeholder="Nombre del producto" class="formulario_nuevo_input" name="nombre_producto" required>
+                    <input type="text" placeholder="Precio del produco" class="formulario_nuevo_input" name="precio" required>
+                    <textarea placeholder="Descripcion del producto" class="formulario_nuevo_descripcion" cols="40" rows="5" name="descripcion" required></textarea>
+                    <input type="submit" value="Agregar producto" class="formulario_btn_agregar">
+
+
+                </form>
+            </section>
+
+        </main>
+
+        <footer class="rodapie">
+
+            <div class="info_contacto">
+
+                <div class="info_contacto_logo">
+
+                        <img class="info_contacto_logo_img" src="./IMG/Logo.png">
+
+                </div>
+
+                <div class="info_contacto_corporativo">
+                    <h3><a href="">Quienes somos</a></h3>
+                    <h3><a href="">Politica de privacidad</a></h3>
+                    <h3><a href="">Nuestras tiendas</a></h3>
+                    <h3><a href="">Quieres ser franquiciado</a></h3>
+                    <h3><a href="">Anuncie aqui</a></h3>
+
+                </div>
+
+                <div class="info_contacto_formulario">
+
+                    <form class="formulario" action="http://www.fake-mi.com" method="post">
+
+                        <label class="formulario_label" for="nombre">Hable con nosotros</label>
+                        <input type="text" class="formulario_nombre" id="nombre" name="Nombre" placeholder="Nombre">
+                        <textarea class="formulario_mensaje" name="mensaje" cols="30" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                        <input type="submit" class="formulario_btn" value="Enviar Mensaje">
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="rodapie_autor">
+
+                <h4>Desarrollado por Ing. Julian Muñoz<br>2022</h4>
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>
