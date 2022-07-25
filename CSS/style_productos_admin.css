@@ -136,15 +136,10 @@
     line-height: 2.4rem;
 }
 
-.contenido_titulo_form {
-
-    width: 150px;
-}
-
 .contenido_titulo_btn {
 
     
-    width: 100%;
+    width: fit-content;
     height: 50px;
     justify-content: center;
     padding: 1rem;
@@ -188,6 +183,55 @@
     margin-right: auto;
     height: auto;
     padding: 10px 0;
+}
+
+.productos_destacados_edit {
+
+    height: 131px;
+    position: relative;
+    background-size: cover;
+    
+}
+
+#producto1 { background-image: url(../IMG/img1_st_vaso.png);}
+#producto2 { background-image: url(../IMG/img2_st_fig_darkvader.png);}
+#producto3 { background-image: url(../IMG/img3_st_fig_yoda.png);}
+#producto4 { background-image: url(../IMG/img4_st_fig_troper.png);}
+#producto5 { background-image: url(../IMG/img5_st_fig_yoda_bebe.png);}
+#producto6 { background-image: url(../IMG/img6_st_fig_on.png);}
+#producto7 { background-image: url(../IMG/control_xbox.png);}
+#producto8 { background-image: url(../IMG/consola_xbox.png);}
+#producto9 { background-image: url(../IMG/consola_nintendo.png);}
+#producto10 { background-image: url(../IMG/control_wii.png);}
+#producto11{ background-image: url(../IMG/parlante.png);}
+#producto12 { background-image: url(../IMG/gameboy.png);}
+#producto13 { background-image: url(../IMG/Camisa_Atari.png);}
+#producto14 { background-image: url(../IMG/camisa_snes.png);}
+#producto15 { background-image: url(../IMG/fig_sonic.png);}
+#producto16 { background-image: url(../IMG/radio_retro.png);}
+#producto17 { background-image: url(../IMG/gafas_realidadVt.png);}
+#producto18 { background-image: url(../IMG/peluche_picachu.png);}
+
+
+
+.productos_destacados_edit_borrar {
+
+    position: absolute;
+    top: 1%;
+    left: 60%;
+}
+
+.productos_destacados_edit_editar {
+
+    position: absolute;
+    top: 1%;
+    left: 80%;
+}
+
+.productos_destacados_img {
+
+    width: 100%;
+    
 }
 
 .productos_destacados h3 {

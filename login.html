@@ -33,11 +33,11 @@
 
             <section class="contenido_formulario">
 
-                <form action="" class="formulario_login">
+                <form action="" method="get" class="formulario_login" id="form_login">
 
                     <label class="formulario_login_titulo">Iniciar sesion</label>
-                    <input type="email" placeholder="Escriba su correo electronico" class="formulario_login_nombre" name="nombre">
-                    <input type="password" placeholder="Escriba su contraseña" class="formulario_login_password" name="password">
+                    <input type="email" placeholder="Escriba su correo electronico" class="formulario_login_nombre" name="nombre" id="form_login_nombre" required>
+                    <input type="password" placeholder="Escriba su contraseña" class="formulario_login_password" name="password" id="form_login_password" required>
                     <input type="submit" value="Entrar" class="formulario_login_boton">
 
 
@@ -84,6 +84,8 @@
             </div>
 
         </footer>
+
+        <script type="text/javascript" src="JS/validad_user.js"></script>
 
     </body>
 
