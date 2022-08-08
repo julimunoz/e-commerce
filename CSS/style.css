@@ -283,6 +283,11 @@
     color: #2A7AE4;
 }
 
+.productos_destacados img {
+
+    width: 100%;
+}
+
 .contenido_consolas {
 
     width: 90%;
