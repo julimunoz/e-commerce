@@ -2,7 +2,7 @@ import { productosServices } from "../services/productos-services.js";
 
 const formulario = document.querySelector("[data-form]");
 
-formulario.addEventListener("submit", (evento) => {
+formulario.addEventListener("submit", async (evento) => {
 
     evento.preventDefault();
     const url = document.querySelector("[data-url]").value;
@@ -12,9 +12,14 @@ formulario.addEventListener("submit", (evento) => {
     const descripcion = document.querySelector("[data-descripcion]").value;
     
     console.log(url,categoria,nombre,precio,descripcion);
-    productosServices.crearProducto(url,categoria,nombre,precio,descripcion)
-    .then( (respuesta) => {alert("registro exitoso")})
-    .catch((error) => console.error())
+
+    try {
+        const producto = await productosServices.crearProducto(url,categoria,nombre,precio,descripcion)
+        alert("registro exitoso");
+    }catch(error) {
+
+        alert("ocurrio un error");
+    } 
 
 });
 

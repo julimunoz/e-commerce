@@ -34,7 +34,7 @@ const eliminarProducto = (id) => {
 const detalleProducto = (id) => {
 
     return fetch(`http://localhost:3000/productos/${id}`).then( (respuesta) => {
-        if(respuesta) {
+        if(respuesta.ok) {
            return respuesta.json()
         }throw new Error("no fue posible traer el producto") // sino lance un error y genere este mensaje
         })
@@ -48,7 +48,7 @@ const actualizarProducto = (id,ImageUrl,categoria,nombre,precio,descripcion) => 
         body: JSON.stringify({ ImageUrl,categoria,nombre,precio,descripcion })
     
     }).then( (respuesta) => {
-        if(respuesta) {
+        if(respuesta.ok) {
            return respuesta.json()
         }throw new Error("no fue posible atualizar el producto") // sino lance un error y genere este mensaje
         })
