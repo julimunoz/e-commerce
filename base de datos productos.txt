@@ -1,0 +1,148 @@
+{
+  "productos": [
+    {
+      "ImageUrl": "./IMG/img1_st_vaso.png",
+      "nombre": "Vaso Start wars",
+      "precio": "12,50",
+      "categoria": "Start_war",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "5d2b21cc-938a-41cf-ad55-b9cb0cef3807"
+    },
+    {
+      "ImageUrl": "./IMG/img2_st_fig_darkvader.png",
+      "nombre": "Fig. Dark Vader",
+      "precio": "10,99",
+      "categoria": "Start_war",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "7506e462-a787-4806-9e62-25cc95e57414"
+    },
+    {
+      "ImageUrl": "./IMG/img3_st_fig_yoda.png",
+      "nombre": "Fig. Yoda",
+      "precio": "$12,00",
+      "categoria": "Start_war",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "179b6374-860a-4193-bf19-becf1f62e519"
+    },
+    {
+      "ImageUrl": "./IMG/img4_st_fig_troper.png",
+      "nombre": "Fig. trooper",
+      "precio": "15,00",
+      "categoria": "Start_war",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "f9912cc3-c541-4d2a-a3cb-28f1fbf11c79"
+    },
+    {
+      "ImageUrl": "./IMG/img5_st_fig_yoda_bebe.png",
+      "nombre": "Fig. Yoda bebe",
+      "precio": "10,00",
+      "categoria": "Start_war",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "12543c8a-36de-48f9-a047-01733855d410"
+    },
+    {
+      "ImageUrl": "./IMG/img6_st_fig_on.png",
+      "nombre": "Fig. Keanu",
+      "precio": "30,00",
+      "categoria": "Start_war",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "43f783e2-a1da-41b8-95eb-69110d44d3b4"
+    },
+    {
+      "ImageUrl": "./IMG/control_xbox.png",
+      "nombre": "Control Xbox",
+      "precio": "15,50",
+      "categoria": "Consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "21bc55ce-c994-49da-ba01-ceae7f7ed8be"
+    },
+    {
+      "ImageUrl": "./IMG/consola_xbox.png",
+      "nombre": "Consola Xbox",
+      "precio": "160,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "62a18367-8a92-4c9a-b454-e651645e051a"
+    },
+    {
+      "ImageUrl": "./IMG/consola_nintendo.png",
+      "nombre": "Consola Nintendo",
+      "precio": "90,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "cbb81fd0-ef5f-4721-aad7-e7ac726c9d55"
+    },
+    {
+      "ImageUrl": "./IMG/control_wii.png",
+      "nombre": "Control wii",
+      "precio": "20,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "61c4f228-4d02-4436-9d45-d85c779e0d3c"
+    },
+    {
+      "ImageUrl": "./IMG/parlante.png",
+      "nombre": "Parlante 2.1",
+      "precio": "10,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "6e695e49-d921-4f78-ad46-fcd298509aa5"
+    },
+    {
+      "ImageUrl": "./IMG/gameboy.png",
+      "nombre": "Gameboy",
+      "precio": "70,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "395d9ef4-8b90-43fe-b887-d7d9ab1287b6"
+    },
+    {
+      "ImageUrl": "./IMG/Camisa_Atari.png",
+      "nombre": "Camisa Atari",
+      "precio": "18,50",
+      "categoria": "Diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "b42e9610-f33a-48c7-892d-e71d4c50e13a"
+    },
+    {
+      "ImageUrl": "./IMG/camisa_snes.png",
+      "nombre": "Camisa Snes",
+      "precio": "16,30",
+      "categoria": "Diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "62ac429a-4645-4488-b570-433b9ee29393"
+    },
+    {
+      "ImageUrl": "./IMG/fig_sonic.png",
+      "nombre": "Fig. Sonic",
+      "precio": "30,20",
+      "categoria": "Diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "b6b64a3b-1cfe-4923-9939-599c3e09fbf5"
+    },
+    {
+      "ImageUrl": "./IMG/radio_retro.png",
+      "nombre": "Radio Retro",
+      "precio": "50,00",
+      "categoria": "Diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "cc545a18-7927-45f4-9da7-d1a28b3af5c1"
+    },
+    {
+      "ImageUrl": "./IMG/gafas_realidadVt.png",
+      "nombre": "Gafas Reality",
+      "precio": "120,00",
+      "categoria": "Diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "d1fc8638-8d29-4199-b103-d3c0ab9ff2cf"
+    },
+    {
+      "ImageUrl": "./IMG/peluche_picachu.png",
+      "nombre": "Muñeco Picachu",
+      "precio": "25,00",
+      "categoria": "Diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+      "id": "6d36e0dd-87b5-473f-affb-ce106df4bc18"
+    }
+  ]
+}

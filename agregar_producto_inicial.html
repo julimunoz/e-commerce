@@ -26,7 +26,7 @@
                     </div>
                 
                     <div class="encabezado_boton">
-                        <button class="encabezado_btn_menu_dministrador" onclick="window.location.href ='login.html'">Menú administrador</button>
+                        <button class="encabezado_btn_menu_dministrador" >Menú administrador</button>
                     </div>
 
                 </div>
@@ -42,17 +42,33 @@
                 <form action="" class="formulario_nuevo_producto" method="get" data-form>
 
                     <label class="formulario_nuevo_producto_titulo">Agregar nuevo producto</label>
-                                         
-                       
-                    <input type="text" placeholder="URL de la imagen"class="formulario_nuevo_input" name="urlImagen" data-url>
-                    <select class="formulario_nuevo_input" name="categoria" required id="select_categoria" data-categoria>
+
+                    <div class="formulario_nuevo_producto_busqueda">
+
+                        <div draggable="true" class="formulario_nuevo_producto_busqueda_drag">
+                            <img class="formulario_nuevo_producto_busqueda_drag_img" src="./IMG/icono_arrastrar.png">    
+                            <p>arrastre para agregar una imagen para el producto</p>
+                        </div>
+
+                        <p>
+                            O
+                        </p>
+
+                        <div class="formulario_nuevo_producto_add">
+                            <p>Busque en su computador</p>
+                            <input type="file" placeholder="selecciones images"class="formulario_nuevo_add" accept="image/png, image/jpg, image/gif, image/jpeg" name="archivo" onchange="previewfile()">
+                            <img src="" height="200" alt="Image preview" class="img_preview">
+                        </div>
+
+                    </div>
+                    <select class="formulario_nuevo_input" name="categoria" required id="select_categoria">
                         <option>Start War</option>
                         <option>Consolas</option>
                         <option>Diversos</option>
                     </select>
-                    <input type="text" placeholder="Nombre del producto" class="formulario_nuevo_input" name="nombre_producto" required data-nombre>
-                    <input type="text" placeholder="Precio del produco" class="formulario_nuevo_input" name="precio" required data-precio>
-                    <textarea placeholder="Descripcion del producto" class="formulario_nuevo_descripcion" cols="40" rows="5" name="descripcion" required data-descripcion></textarea>
+                    <input type="text" placeholder="Nombre del producto" class="formulario_nuevo_input" name="nombre_producto" required>
+                    <input type="text" placeholder="Precio del produco" class="formulario_nuevo_input" name="precio" required>
+                    <textarea placeholder="Descripcion del producto" class="formulario_nuevo_descripcion" cols="40" rows="5" name="descripcion" required></textarea>
                     <input type="submit" value="Agregar producto" class="formulario_btn_agregar">
 
 
@@ -101,7 +117,7 @@
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script type="module" src="./controller/registro-controller.js"></script>
-        <script type="module" src="./controller/registro-controller.js"></script>
+        <script type="text/javascript" src="./JS/previewfile.js"></script>
     </body>
 
 </html>
